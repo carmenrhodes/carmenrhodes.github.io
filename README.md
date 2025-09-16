@@ -1,6 +1,6 @@
 <!-- Intro with headshot -->
 <div style="display:flex; align-items:center; gap:18px; margin:0 0 18px 0;">
-  <img src="/assets/img/headshot.jpg" alt="Carmen Rhodes headshot" width="120" style="border-radius:50%; object-fit:cover;">
+  <img src="/Assets/headshot.jpg" alt="Carmen Rhodes headshot" width="120" style="border-radius:50%; object-fit:cover;">
   <div>
     <p style="margin:0;">
       LaunchCode student learning <strong>Java</strong>, <strong>Spring/Spring Boot</strong>, <strong>JavaScript/React</strong>, <strong>HTML/CSS</strong>, and <strong>MySQL</strong>.<br>
