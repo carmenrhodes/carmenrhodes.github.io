@@ -1,3 +1,4 @@
+![Carmen Rhodes brand header](/assets/img/Carmen Rhodes)
 # Carmen Rhodes
 
 LaunchCode student learning **Java**, **Spring/Spring Boot**, **JavaScript/React**, **HTML/CSS**, and **MySQL**.  
