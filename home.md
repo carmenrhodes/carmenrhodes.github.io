@@ -16,11 +16,11 @@ permalink: /home/
 
 <!-- Quick actions -->
 <p>
-  <a href="/resume/">📄 View Résumé</a>
-  &nbsp;
-  <a href="https://github.com/carmenrhodes"> GitHub</a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/carmen-rhodes-a6652214a/"> LinkedIn</a>
+  <a href="/resume/">View Résumé</a>
+  <br>
+  <a href="https://github.com/carmenrhodes">GitHub</a>
+<br>
+  <a href="https://www.linkedin.com/in/carmen-rhodes-a6652214a/">LinkedIn</a>
 </p>
 
 ---
