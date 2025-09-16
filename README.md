@@ -3,6 +3,9 @@
 LaunchCode student learning **Java**, **Spring/Spring Boot**, **JavaScript/React**, **HTML/CSS**, and **MySQL**.  
 I’m seeking an entry-level role where I can build, learn fast, and contribute from day one.
 
+### Navigation  
+[Home](/) · [Resume](/resume)
+
 ## Featured Project — TrackMyStack
 Keep track of precious metals inventory with add/edit/remove and simple filtering.
 
