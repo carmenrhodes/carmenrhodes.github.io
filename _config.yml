@@ -1,8 +1,3 @@
 theme: jekyll-theme-minimal
 title: Carmen's Portfolio
 description: A look into my coding journey, one project at a time.
-nav:
-  - name: "Home"
-    link: "/home"
-  - name: "Resume"
-    link: "/resume"
