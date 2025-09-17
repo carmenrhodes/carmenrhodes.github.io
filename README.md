@@ -3,6 +3,7 @@
 
 
 <!-- Intro with headshot -->
+<div class="container">
 <div style="display:flex; align-items:center; gap:18px; margin:0 0 18px 0;">
   <img src="/Assets/headshot.jpg" alt="Carmen Rhodes headshot" width="120" style="border-radius:50%; object-fit:cover;">
   <div>
@@ -17,7 +18,10 @@
 <div class="divider"></div>
 
 ### Navigation
-[Home](/home) · [Resume](/resume)
+<div class="quick-actions">
+  <a class="btn" href="/home/">Home</a>
+  <a class="btn" href="/resume/">Resume</a>
+</div>
 
 <div class="divider"></div>
 
@@ -48,3 +52,4 @@
 
 ## Connect
 - <a href="https://www.linkedin.com/in/carmen-rhodes-a6652214a/">LinkedIn</a>
+</div>
