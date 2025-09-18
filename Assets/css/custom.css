@@ -21,10 +21,21 @@ a:hover { text-decoration:underline; }
 .tags{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0;}
 .tag{padding:6px 10px;border-radius:999px;font-size:14px;border:1px solid var(--border);background:white;}
 
+.wrapper {
+  max-width: 1200px !important;  
+  margin: 0 auto !important;
+  padding: 0 32px;
+}
+
 .container {
   max-width: 1200px;   
   margin: 0 auto;
   padding: 0 32px; 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .quick-actions {
