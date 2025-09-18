@@ -22,21 +22,30 @@ a:hover { text-decoration:underline; }
 .tag{padding:6px 10px;border-radius:999px;font-size:14px;border:1px solid var(--border);background:white;}
 
 .wrapper {
-  max-width: 1400px !important;  
+  max-width: none !important;
+  width: min(95vw, 1500px) !important;  /* 
   margin: 0 auto !important;
-  padding: 0 24px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
-.container {
-  max-width: 1400px;   
+.page,
+.post,
+.page .inner,
+.post .inner,
+.site,
+.content {
+  max-width: none !important;
+  width: 100% !important;  
   margin: 0 auto;
-  padding: 0 24px; 
+  padding-left: 0;
+  padding-right: 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+img { max-width: 100%; 
+     height: auto; 
+    }
+
 
 .quick-actions {
   display: flex;
