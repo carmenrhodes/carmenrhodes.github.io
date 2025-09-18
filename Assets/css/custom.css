@@ -118,14 +118,34 @@ footer[role="contentinfo"].site-footer,
 }
 
 
-#header_wrap::after,                
-body > header::after,              
-.site-header::after,               
-.masthead::after {                 
+#header_wrap { position: relative; }
+
+
+#header_wrap::after,
+body > header::after,
+.site-header::after,
+.masthead::after {
   content: "";
-  display: block;
+  position: absolute;           
+  left: 0;
+  right: 0;
+  bottom: -1px;                 
+  height: 4px;                 
   width: 100vw;
-  height: 2px;
-  background: var(--lavender);
-  margin-left: calc(50% - 50vw);    
+  margin-left: calc(50% - 50vw);
+  z-index: 2;
+
+  
+  background: linear-gradient(
+    90deg,
+    #C9C1FF 0%,                 
+    var(--lavender) 35%,
+    var(--lavender-600) 100%
+  );
 }
+
+
+.outer > .inner:first-of-type {
+  border-top: 0 !important;
+}
+
