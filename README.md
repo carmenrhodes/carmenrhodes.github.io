@@ -66,5 +66,15 @@
   <a class="btn" href="https://github.com/carmenrhodes">GitHub</a>
 </div>
 
-</div>
+<div class="divider"></div>
 
+<footer class="site-footer">
+  <p>
+    © {{ site.time | date: '%Y' }} Carmen Rhodes · 
+    <a href="/resume/">Resume</a> · 
+    <a href="https://github.com/carmenrhodes">GitHub</a> · 
+    <a href="https://www.linkedin.com/in/carmen-rhodes-a6652214a/">LinkedIn</a>
+  </p>
+</footer>
+
+</div>
