@@ -48,3 +48,14 @@ I’m especially interested in:
 
 ## Contact
 Want to connect or collaborate? Reach out on LinkedIn.
+
+<div class="divider"></div>
+
+<footer class="custom-footer full-bleed">
+  <p>
+    © {{ site.time | date: '%Y' }} Carmen Rhodes · 
+    <a href="/resume/">Resume</a> · 
+    <a href="https://github.com/carmenrhodes">GitHub</a> · 
+    <a href="https://www.linkedin.com/in/carmen-rhodes-a6652214a/">LinkedIn</a>
+  </p>
+</footer>
