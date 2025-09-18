@@ -131,3 +131,8 @@ footer[role="contentinfo"].site-footer,
 .site-footer {
   display: none !important;
 }
+
+#footer_wrap,
+#footer_wrap footer {
+  display: none !important;
+}
