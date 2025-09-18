@@ -70,7 +70,7 @@
 
 </div>
 
-<footer class="site-footer">
+<footer class="custom-footer full-bleed">
   <p>
     © {{ site.time | date: '%Y' }} Carmen Rhodes · 
     <a href="/resume/">Resume</a> · 
@@ -78,5 +78,15 @@
     <a href="https://www.linkedin.com/in/carmen-rhodes-a6652214a/">LinkedIn</a>
   </p>
 </footer>
+
+.site-header::after,
+.masthead::after {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 2px;
+  background: var(--lavender);
+  margin-left: calc(50% - 50vw);
+}
 
 
