@@ -99,6 +99,11 @@ footer.site-footer {
   display: none !important;
 }
 
+.site-footer,
+footer.site-footer,
+.footer {
+  display: none !important;
+}
 
 .site-header::after,
 .masthead::after {
@@ -110,8 +115,4 @@ footer.site-footer {
   margin-left: calc(50% - 50vw);
 }
 
-.site-footer,
-footer.site-footer,
-.footer {
-  display: none !important;
-}
+
