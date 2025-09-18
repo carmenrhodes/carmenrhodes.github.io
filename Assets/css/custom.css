@@ -68,3 +68,24 @@ img { max-width: 100%;
   flex-wrap: wrap;
   margin: 10px 0 20px;
 }
+
+.site-footer {
+  background: #f3f0ff; 
+  padding: 16px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--ink);
+  border-top: 2px solid var(--lavender);  
+  margin-top: 32px;
+}
+
+.site-footer a {
+  color: var(--lavender-600);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+  color: var(--lavender);
+}
