@@ -68,6 +68,8 @@
 
 <div class="divider"></div>
 
+</div>
+
 <footer class="site-footer">
   <p>
     © {{ site.time | date: '%Y' }} Carmen Rhodes · 
@@ -77,4 +79,4 @@
   </p>
 </footer>
 
-</div>
+
