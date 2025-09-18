@@ -79,14 +79,5 @@
   </p>
 </footer>
 
-.site-header::after,
-.masthead::after {
-  content: "";
-  display: block;
-  width: 100vw;
-  height: 2px;
-  background: var(--lavender);
-  margin-left: calc(50% - 50vw);
-}
 
 
