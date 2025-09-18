@@ -99,7 +99,9 @@ footer.site-footer {
   display: none !important;
 }
 
-.site-header::after {
+
+.site-header::after,
+.masthead::after {
   content: "";
   display: block;
   width: 100vw;
@@ -108,3 +110,8 @@ footer.site-footer {
   margin-left: calc(50% - 50vw);
 }
 
+.site-footer,
+footer.site-footer,
+.footer {
+  display: none !important;
+}
