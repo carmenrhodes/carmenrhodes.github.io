@@ -23,7 +23,7 @@ a:hover { text-decoration:underline; }
 
 .wrapper {
   max-width: none !important;
-  width: min(95vw, 1500px) !important;  /* 
+  width: min(95vw, 1500px) !important;  
   margin: 0 auto !important;
   padding-left: 32px;
   padding-right: 32px;
