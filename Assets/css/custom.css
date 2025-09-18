@@ -18,8 +18,22 @@ a:hover { text-decoration:underline; }
 .divider{height:1px;background:var(--border);margin:22px 0;}
 
 /* Skill tags */
-.tags{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0;}
-.tag{padding:6px 10px;border-radius:999px;font-size:14px;border:1px solid var(--border);background:white;}
+.tags {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.tag {
+  text-align: center;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  border: 1px solid var(--border);
+  background: white;
+  font-weight: 500;
+}
 
 .wrapper {
   max-width: none !important;
