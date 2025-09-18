@@ -1,11 +1,10 @@
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/Assets/css/custom.css">
-
-
 ---
 title: Home
 permalink: /home/
 ---
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/Assets/css/custom.css">
 
 ![Carmen Rhodes brand header](/Assets/Carmen-Rhodes.png)
 ---
@@ -20,7 +19,7 @@ permalink: /home/
 
 <!-- Quick actions -->
 <p>
-  <a href="/resume/">View Résumé</a>
+  <a href="/resume/">View Resume</a>
   <br>
   <a href="https://github.com/carmenrhodes">GitHub</a>
 <br>
