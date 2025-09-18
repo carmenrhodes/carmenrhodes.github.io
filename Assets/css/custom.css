@@ -69,23 +69,42 @@ img { max-width: 100%;
   margin: 10px 0 20px;
 }
 
-.site-footer {
-  background: #f3f0ff; 
-  padding: 16px;
+.full-bleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.custom-footer {
+  background: #f3f0ff;                
+  border-top: 2px solid var(--lavender);
+  padding: 16px 24px;
   text-align: center;
   font-size: 14px;
   color: var(--ink);
-  border-top: 2px solid var(--lavender);  
-  margin-top: 32px;
 }
 
-.site-footer a {
+.custom-footer a {
   color: var(--lavender-600);
   text-decoration: none;
   font-weight: 500;
 }
 
-.site-footer a:hover {
-  text-decoration: underline;
+.custom-footer a:hover {
   color: var(--lavender);
+  text-decoration: underline;
 }
+
+footer.site-footer {
+  display: none !important;
+}
+
+.site-header::after {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 2px;
+  background: var(--lavender);
+  margin-left: calc(50% - 50vw);
+}
+
