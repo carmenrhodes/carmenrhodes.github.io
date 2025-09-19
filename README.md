@@ -1,5 +1,5 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/Assets/css/custom.css?v=7">
+<link rel="stylesheet" href="/Assets/css/custom.css?v=9">
 
 <header class="custom-header full-bleed">
   <nav class="nav-center">
