@@ -1,11 +1,11 @@
 :root{
-  --lavender:#9E8CFF;         /* accent */
-  --lavender-600:#7E6BD6;     /* darker accent */
-  --ink:#222;                 /* body text */
-  --muted:#666;               /* secondary text */
-  --border:#e6e6f2;           /* soft borders */
-  --card:#f7f7fb;             /* card bg */
-  --radius:12px;              /* rounded corners */
+  --lavender:#9E8CFF;       
+  --lavender-600:#7E6BD6;    
+  --ink:#222;               
+  --muted:#666;              
+  --border:#e6e6f2;          
+  --card:#f7f7fb;            
+  --radius:12px;              
 }
 
 
