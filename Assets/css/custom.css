@@ -225,3 +225,32 @@ h2.project-tagline {
 .custom-header {
   margin-top: 0 !important;
 }
+
+
+header.page-header,
+header.page-header * ,
+.page-header,
+.page-header * ,
+h1.project-name,
+h2.project-tagline,
+header[role="banner"] .project-name,
+header[role="banner"] .project-tagline,
+header[role="banner"].page-header {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+
+.main-content,
+.markdown-body,
+.container-lg,
+.container-xl {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.custom-header { margin-top: 0 !important; }
