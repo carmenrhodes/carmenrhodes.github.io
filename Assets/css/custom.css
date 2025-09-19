@@ -190,3 +190,16 @@ footer[role="contentinfo"],
 .project-tagline {
   display: none !important;
 }
+
+header.page-header,
+.page-header,
+h1.project-name,
+h2.project-tagline {
+  display: none !important;
+}
+
+.main-content,
+.markdown-body {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
