@@ -52,46 +52,39 @@ main, .markdown-body, .container-lg, .container-xl {
 
 
 .custom-header {
-  background: #fff;
-  border-bottom: 2px solid var(--lavender); 
+  background: #f3f0ff;                 
+  border-bottom: 2px solid var(--lavender);
 }
-.custom-header .header-inner {
-  max-width: 1200px;
+
+.nav-center {
+  max-width: 1200px;                  
   margin: 0 auto;
-  padding: 12px 32px;
+  padding: 10px 32px;
   display: flex;
+  justify-content: center;            
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-}
-.custom-header .brand {
-  font-weight: 700;
-  font-size: 18px;
-  color: var(--ink);
-  text-decoration: none;
-}
-.custom-header .main-nav {
-  display: flex;
-  gap: 16px;
-  align-items: center;
+  gap: 18px;
   flex-wrap: wrap;
 }
-.custom-header .main-nav a {
+
+.nav-center a {
   text-decoration: none;
   font-weight: 600;
   color: var(--ink);
-  padding: 6px 10px;
+  padding: 6px 12px;
   border-radius: 999px;
   border: 1px solid transparent;
   transition: background-color .15s ease, border-color .15s ease, color .15s ease;
 }
-.custom-header .main-nav a:hover {
+
+.nav-center a:hover {
   border-color: var(--lavender);
   color: var(--lavender-600);
-  background: #f7f7fb;
+  background: #fff;
 }
 
-.custom-header .main-nav a[aria-current="page"] {
+
+.nav-center a[aria-current="page"] {
   background: var(--lavender);
   color: #fff;
   border-color: var(--lavender);
@@ -189,5 +182,11 @@ footer[role="contentinfo"],
 #footer, .footer,
 #footer_wrap,
 #footer_wrap footer {
+  display: none !important;
+}
+
+.page-header,
+.project-name,
+.project-tagline {
   display: none !important;
 }
