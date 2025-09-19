@@ -4,7 +4,15 @@ permalink: /home/
 ---
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/Assets/css/custom.css">
+<link rel="stylesheet" href="/Assets/css/custom.css?v=6">
+
+<header class="custom-header full-bleed">
+  <nav class="nav-center">
+    <a href="/home/" aria-current="page">Home</a>
+    <a href="/resume/">Résumé</a>
+    <a href="https://github.com/carmenrhodes">GitHub</a>
+  </nav>
+</header>
 
 ![Carmen Rhodes brand header](/Assets/Carmen-Rhodes.png)
 ---
