@@ -200,3 +200,33 @@ body > h1:first-of-type *{
   margin-top:0 !important;
   padding-top:0 !important;
 }
+
+.markdown-body > h1:first-child,
+.container-lg > h1:first-child,
+.markdown-body h1:empty,
+.container-lg h1:empty {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+
+.markdown-body > *:first-child,
+.container-lg > *:first-child {
+  margin-top: 0 !important;
+}
+
+
+.container-lg.my-5,
+.markdown-body.my-5 {
+  margin-top: 0 !important;
+}
+
+
+.custom-header {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
