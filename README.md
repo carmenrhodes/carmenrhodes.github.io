@@ -1,6 +1,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/Assets/css/custom.css">
 
+<header class="custom-header full-bleed">
+  <div class="header-inner">
+    <a class="brand" href="/">Carmen Rhodes</a>
+    <nav class="main-nav">
+      <a href="/home/">Home</a>
+      <a href="/resume/">Résumé</a>
+      <a href="https://github.com/carmenrhodes">GitHub</a>
+    </nav>
+  </div>
+</header>
+
 <div class="container">
 
   <div style="display:flex; align-items:center; gap:18px; margin:0 0 18px 0;">
@@ -12,15 +23,6 @@
         I’m seeking an entry-level role where I can build, learn fast, and contribute from day one.
       </p>
     </div>
-  </div>
-
-  <div class="divider"></div>
-
-  <h2>Navigation</h2>
-  <div class="quick-actions">
-    <a class="btn" href="/home/">Home</a>
-    <a class="btn" href="/resume/">Resume</a>
-    <a class="btn" href="https://github.com/carmenrhodes">GitHub</a>
   </div>
 
   <div class="divider"></div>
@@ -39,45 +41,39 @@
   <div class="divider"></div>
 
   <h2>Featured Project — TrackMyStack</h2>
-<div style="background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:16px;">
-  
-  <img src="/Assets/TrackMyStack.png"
-       alt="Screenshot of the TrackMyStack precious-metals inventory app"
-       style="width:100%; border-radius:var(--radius); border:1px solid var(--border); margin-bottom:12px;">
-
-  <p>
-    TrackMyStack is an inventory app for precious metals. It lets you add, edit, and remove items;
-    filter by type or date; and view a streamlined dashboard with recent purchases, quick-add shortcuts,
-    and live spot prices.
-  </p>
-
-  <p>
-    <strong>Live:</strong> <a href="https://trackyourstack.netlify.app/">trackyourstack.netlify.app</a><br>
-    <strong>Repo:</strong> <a href="https://github.com/carmenrhodes/LaunchCode-Unit1-Final-Carmen-R">GitHub</a><br>
-    <strong>Tech:</strong> JavaScript (React), API integration, HTML, CSS
-  </p>
-</div>
+  <div style="background:var(--card); border:1px solid var(--border); border-radius:var(--radius); padding:16px;">
+    <img src="/Assets/TrackMyStack.png"
+         alt="Screenshot of the TrackMyStack precious-metals inventory app"
+         style="width:100%; border-radius:var(--radius); border:1px solid var(--border); margin-bottom:12px;">
+    <p>
+      TrackMyStack is an inventory app for precious metals. It lets you add, edit, and remove items;
+      filter by type or date; and view a streamlined dashboard with total inventory weight and value, quick-add shortcuts,
+      and live spot prices.
+    </p>
+    <p>
+      <strong>Live:</strong> <a href="https://trackyourstack.netlify.app/">trackyourstack.netlify.app</a><br>
+      <strong>Repo:</strong> <a href="https://github.com/carmenrhodes/LaunchCode-Unit1-Final-Carmen-R">GitHub</a><br>
+      <strong>Tech:</strong> JavaScript (React), API integration, HTML, CSS
+    </p>
+  </div>
 
   <div class="divider"></div>
 
- <h2>Connect</h2>
-<div class="quick-actions">
-  <a class="btn" href="https://www.linkedin.com/in/carmen-rhodes-a6652214a/">LinkedIn</a>
-  <a class="btn" href="https://github.com/carmenrhodes">GitHub</a>
-</div>
+  <h2>Connect</h2>
+  <div class="quick-actions">
+    <a class="btn" href="https://www.linkedin.com/in/carmen-rhodes-a6652214a/">LinkedIn</a>
+    <a class="btn" href="https://github.com/carmenrhodes">GitHub</a>
+  </div>
 
-<div class="divider"></div>
+  <div class="divider"></div>
 
 </div>
 
 <footer class="custom-footer full-bleed">
   <p>
     © {{ site.time | date: '%Y' }} Carmen Rhodes · 
-    <a href="/resume/">Resume</a> · 
+    <a href="/resume/">Résumé</a> · 
     <a href="https://github.com/carmenrhodes">GitHub</a> · 
     <a href="https://www.linkedin.com/in/carmen-rhodes-a6652214a/">LinkedIn</a>
   </p>
 </footer>
-
-
-
