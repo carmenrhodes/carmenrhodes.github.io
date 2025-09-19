@@ -203,3 +203,25 @@ h2.project-tagline {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
+
+header.page-header[role="banner"],
+header.page-header[role="banner"] *,
+.page-header,
+.page-header * ,
+h1.project-name,
+h2.project-tagline {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.main-content,
+.markdown-body,
+.container-lg,
+.container-xl {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.custom-header {
+  margin-top: 0 !important;
+}
