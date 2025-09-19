@@ -2,14 +2,11 @@
 <link rel="stylesheet" href="/Assets/css/custom.css">
 
 <header class="custom-header full-bleed">
-  <div class="header-inner">
-    <a class="brand" href="/">Carmen Rhodes</a>
-    <nav class="main-nav">
-      <a href="/home/">Home</a>
-      <a href="/resume/">Résumé</a>
-      <a href="https://github.com/carmenrhodes">GitHub</a>
-    </nav>
-  </div>
+  <nav class="nav-center">
+    <a href="/home/" aria-current="page">Home</a>
+    <a href="/resume/">Résumé</a>
+    <a href="https://github.com/carmenrhodes">GitHub</a>
+  </nav>
 </header>
 
 <div class="container">
