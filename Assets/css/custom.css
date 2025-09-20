@@ -252,13 +252,14 @@ body > h1:first-of-type *{
   display: flex;
   align-items: center;
   gap: 24px;
-  margin-top: 8px;   
+  margin-top: 32px;   
   margin-bottom: 18px;
 }
 
 .intro .avatar {
-  width: 120px;
+  width: 140px;
+  height: 180px;
   aspect-ratio: 1 / 1;
-  border-radius: 50%;
+  border-radius: 12px;
   object-fit: cover;
 }
