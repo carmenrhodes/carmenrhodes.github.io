@@ -196,14 +196,25 @@ body > h1:first-of-type *{
 .main-content,
 .markdown-body,
 .container-lg,
-.container-xl{
-  margin-top:0 !important;
-  padding-top:16px !important;
+.container-xl {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+
+.container-lg.my-5,
+.markdown-body.my-5 {
+  margin-top: 0 !important;
+}
+
+
+.markdown-body > .custom-header {
+  margin-bottom: 16px;           
 }
 
 @media (min-width: 992px) {
-  .main-content, .markdown-body, .container-lg, .container-xl {
-    padding-top: 24px !important;  
+  .markdown-body > .custom-header {
+    margin-bottom: 24px;       
   }
 }
 
@@ -235,4 +246,19 @@ body > h1:first-of-type *{
 .custom-header {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 8px;   
+  margin-bottom: 18px;
+}
+
+.intro .avatar {
+  width: 120px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
 }
