@@ -198,7 +198,13 @@ body > h1:first-of-type *{
 .container-lg,
 .container-xl{
   margin-top:0 !important;
-  padding-top:0 !important;
+  padding-top:16px !important;
+}
+
+@media (min-width: 992px) {
+  .main-content, .markdown-body, .container-lg, .container-xl {
+    padding-top: 24px !important;  
+  }
 }
 
 .markdown-body > h1:first-child,
